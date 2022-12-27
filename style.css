@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vh;
+  height: 100vh;
+  background-color: rgb(47, 77, 103);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.clock {
+  position: absolute;
+  top: 300px;
+  left: 200px;
+  background-color: rgb(76, 123, 6);
+  padding: 100px 120px;
+  border-radius: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.clock > samp {
+  color: rgb(249, 247, 247);
+  font-size: 70px;
+  font-weight: 600;
+}
+.clock > span {
+  color: rgb(249, 247, 247);
+  font-size: 70px;
+  font-weight: 600;
+  padding: 5px;
+}
